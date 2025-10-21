@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI带货 - 电商带货中心</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <!-- 左侧导航栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/104x32" alt="Logo" class="logo-img">
+                </div>
+                <div class="switch-btn">
+                    <span>切换</span>
+                    <div class="switch-icon"></div>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <div class="nav-item">
+                    <div class="nav-icon home-icon"></div>
+                    <span>首页</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon content-icon"></div>
+                    <span>内容管理</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon interaction-icon"></div>
+                    <span>互动管理</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon data-icon"></div>
+                    <span>数据中心</span>
+                </div>
+                <div class="nav-item active">
+                    <div class="nav-icon monetization-icon"></div>
+                    <span>变现中心</span>
+                </div>
+                <div class="nav-item">
+                    <span>乘风计划分润</span>
+                </div>
+                <div class="nav-item">
+                    <span>内容分销</span>
+                </div>
+                <div class="nav-item">
+                    <span>变现任务</span>
+                </div>
+                <div class="nav-item">
+                    <span>付费内容分销</span>
+                </div>
+                <div class="nav-item">
+                    <span>结算中心</span>
+                </div>
+                <div class="nav-item active">
+                    <span>电商带货</span>
+                </div>
+                <div class="nav-item">
+                    <span>付费订阅</span>
+                </div>
+                <div class="nav-item">
+                    <span>收益设置</span>
+                </div>
+                <div class="nav-item">
+                    <span>度星选</span>
+                </div>
+                <div class="nav-item">
+                    <span>收益广场</span>
+                </div>
+                <div class="nav-item">
+                    <span>基木鱼电商</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon growth-icon"></div>
+                    <span>成长中心</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon personal-icon"></div>
+                    <span>个人中心</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon support-icon"></div>
+                    <span>咨询中心</span>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-icon dev-icon"></div>
+                    <span>开发</span>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- 主内容区域 -->
+        <main class="main-content">
+            <!-- 顶部导航 -->
+            <header class="top-header">
+                <div class="header-left">
+                    <div class="logo-section">
+                        <img src="https://via.placeholder.com/104x32" alt="Logo" class="header-logo">
+                    </div>
+                    <div class="switch-section">
+                        <span>切换</span>
+                        <div class="switch-icon"></div>
+                    </div>
+                </div>
+                
+                <div class="header-right">
+                    <div class="credit-section">
+                        <div class="credit-icon"></div>
+                        <span class="credit-text">信用分｜本周您的信用...</span>
+                    </div>
+                    <div class="user-section">
+                        <div class="user-avatar">
+                            <img src="https://via.placeholder.com/32x32" alt="User Avatar" class="avatar-img">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 页面标题和导航 -->
+            <div class="page-header">
+                <div class="page-nav">
+                    <span class="nav-link">电商首页</span>
+                    <span class="nav-link">选品广场</span>
+                    <span class="nav-link active">AI带货</span>
+                </div>
+                <div class="help-link">
+                    <span>《帮助文档》</span>
+                </div>
+            </div>
+
+            <!-- 主要内容 -->
+            <div class="content-wrapper">
+                <!-- AI带货功能区域 -->
+                <div class="ai-section">
+                    <div class="ai-header">
+                        <h1 class="ai-title">创建你的AI带货</h1>
+                        <p class="ai-subtitle">一键创作爆款带货内容， 精准选品，加速转化</p>
+                    </div>
+                    
+                    <div class="ai-form">
+                        <div class="form-row">
+                            <span class="form-label">结合人群</span>
+                            <div class="tag">宝妈、小朋友等</div>
+                            <span class="form-label">、痛点</span>
+                            <div class="tag">孩子晚上哭闹</div>
+                            <span class="form-label">、适合场景</span>
+                            <div class="tag">半夜哄孩子睡觉</div>
+                            <span class="form-label">帮我生成带货内容</span>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button class="btn-secondary">带货商品</button>
+                            <button class="btn-primary">
+                                <div class="ai-icon"></div>
+                                一键成文
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 最近创作 -->
+                <div class="recent-section">
+                    <div class="section-header">
+                        <h2>最近创作</h2>
+                        <div class="more-link">
+                            <span>更多</span>
+                            <div class="arrow-icon"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="recent-grid">
+                        <div class="recent-card">
+                            <div class="card-header">
+                                <div class="category-tag">数码</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">小米（MI）【国家补贴】REDMI Turbo 4 Pro 第四代骁龙8s 7550mAh长续航 12GB+256GB 白色 小米红米5G手机</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="create-time">2025-5-12 23:20</span>
+                                <div class="status-badge published">已发布</div>
+                            </div>
+                            <div class="card-category">数码</div>
+                        </div>
+                        
+                        <div class="recent-card">
+                            <div class="card-header">
+                                <div class="category-tag">数码</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">小米（MI）【国家补贴】REDMI Turbo 4 Pro 第四代骁龙8s 7550mAh长续航 12GB+256GB 白色 小米红米5G手机</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="create-time">2025-5-12 23:20</span>
+                                <div class="status-badge rejected">未通过</div>
+                            </div>
+                            <div class="card-category">数码</div>
+                        </div>
+                        
+                        <div class="recent-card">
+                            <div class="card-header">
+                                <div class="category-tag">数码</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">小米（MI）【国家补贴】REDMI Turbo 4 Pro 第四代骁龙8s 7550mAh长续航 12GB+256GB 白色 小米红米5G手机</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <span class="create-time">2025-5-1 23:20</span>
+                                <div class="status-badge reviewing">审核中</div>
+                            </div>
+                            <div class="card-category">数码</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 优秀案例 -->
+                <div class="cases-section">
+                    <div class="section-header">
+                        <h2>优秀案例</h2>
+                    </div>
+                    
+                    <div class="cases-grid">
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">数码</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">小米（MI）【国家补贴】REDMI Turbo 4 Pro 第四代骁龙8s 7550mAh长续航 12GB+256GB 白色 小米红米5G手机</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">数码</div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">美妆护肤</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">雅诗兰黛美白胶原水乳套装（胶原水200ml+白胶原乳100ml)生日礼物</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">美妆护肤</div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">酒水</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">长城（GreatWall）红酒 白葡萄酒 橡木桶陈酿特级莎当妮干白750ML单支装</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">酒水</div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">数码</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">小米（MI）【国家补贴】REDMI Turbo 4 Pro 第四代骁龙8s 7550mAh长续航 12GB+256GB 白色 小米红米5G手机</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">数码</div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">美妆护肤</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">雅诗兰黛美白胶原水乳套装（胶原水200ml+白胶原乳100ml)生日礼物</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">美妆护肤</div>
+                        </div>
+                        
+                        <div class="case-card">
+                            <div class="card-header">
+                                <div class="category-tag">酒水</div>
+                                <h3 class="card-title">锁肌肤水润新密码！植物精华太绝了</h3>
+                            </div>
+                            <p class="card-description">护肤界的颜值天花板遇上实力派，这瓶蓝色水润保湿瓶植物精华，绝对是你不能错过的不能错过的...</p>
+                            <div class="product-info">
+                                <img src="https://via.placeholder.com/56x56" alt="Product" class="product-img">
+                                <div class="product-details">
+                                    <h4 class="product-name">长城（GreatWall）红酒 白葡萄酒 橡木桶陈酿特级莎当妮干白750ML单支装</h4>
+                                    <div class="product-price">¥1899</div>
+                                    <div class="product-meta">
+                                        <span>京东</span>
+                                        <span>月销量1万</span>
+                                        <span>好评率98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-category">酒水</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
